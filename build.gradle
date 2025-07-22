@@ -4,7 +4,10 @@ plugins{
 }
 
 repositories {
-    mavenCentral()
+    maven {
+        url "https://repo1.maven.org/maven2/"
+    }
+//    mavenCentral()
 }
 
 def jUnitVersion = "6.0.0-M1",
